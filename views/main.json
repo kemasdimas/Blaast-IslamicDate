@@ -1,0 +1,34 @@
+{
+	"style": {
+		"background-color": "white",
+		"border": 10
+	},
+
+	"contents": [
+		{
+			"name": "title",
+			"control": "TextView",
+			"label": "Assalamu'alaikum!",
+			"style": {
+				"color": "black",
+				"width": "fill-parent",
+				"height": "wrap-content",
+				"align": "center",
+				"valign": "middle"
+			}
+		},
+		{
+			"name": "txtIslamicDate",
+			"control": "TextView",
+			"style": {
+				"color": "black",
+				"width": "fill-parent",
+				"height": "fill-parent",
+				"align": "center",
+				"valign": "middle",
+				"font-size": "large",
+				"font-weight": "bold"
+			}
+		}
+	]
+}

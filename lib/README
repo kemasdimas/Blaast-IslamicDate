@@ -1,0 +1,15 @@
+==== How to use ===
+
+In your controller file, add this lines
+
+var IslamicDate = require('../lib/IslamicDate');
+
+Somewhere in your event handler, add this
+
+var adjustment = -2;
+var islamicDate = new IslamicDate.IslamicDate();
+
+console.log(islamicDate.getIslamicDate(adjustment));
+
+=== Credit ===
+Big thanks to the author from http://www.al-habib.info/islamic-calendar/hijricalendartext.htm
